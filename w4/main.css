@@ -1,27 +1,48 @@
-html {
-    font-size: 22px;
-}
 body {
-    background-color: #333;
-    color: whitesmoke;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
 }
 
-a {
-    color: aliceblue
-}
-
-
-a:visited {
-    color: lightgray;
-}
-
-a:hover, a:active {
-    color: #eee;
-}
-
-table, tr, th, td, caption {
-    border: 1px solid #eee;
-    font-family: 'Courier New', Courier, monospace;
+table {
+    width: 100%;
     border-collapse: collapse;
-    padding: 0.5rem;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #cc0040; /* JoJo red */
+    color: #fff;
+    border-bottom: 2px solid #6b0022; /* darker red */
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #ffd700; /* JoJo gold */
+    color: #000; /* black */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tfoot td {
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+    background-color: #4b0082; /* JoJo purple */
+    color: #fff;
+    border-top: 2px solid #2d004d; /* darker purple */
 }
