@@ -1,0 +1,112 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+header {
+    background-color: #000000;
+    color: #a52d2d;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #000000;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: flex;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+figure {
+    margin: 0 20px;
+    text-align: center;
+}
+
+
+
+footer {
+    background-color: #15171a;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.color {
+    display: inline-block;
+    width: 50px; 
+    height: 50px; 
+    margin-right: 10px;
+    border: 1px solid #000; 
+}
+
+/* Mobile Device */
+@media only screen and (max-width: 480px) {
+    nav ul li {
+        margin-right: 10px; /* Decrease margin for smaller devices */
+    }
+}
+
+/* Styles for iPads and Tablets */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .container {
+        width: 90%; /* Adjust container width for tablets */
+    }
+}
+
+/* Styles for Small screens and laptops */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    header {
+        padding: 15px; /* Adjust header padding for small screens and laptops */
+    }
+}
+
+/* Styles for Desktops and large screens */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    
+}
+
+/* Styles for Extra large screens and TV */
+@media only screen and (min-width: 1201px) {
+    nav ul li {
+        margin-right: 30px; 
+    }
+}
